@@ -82,7 +82,7 @@ namespace EarcutNet.Tests
             yield return LoadTestCaseData("issue52", 109);
             yield return LoadTestCaseData("shared-points", 4);
             yield return LoadTestCaseData("bad-diagonals", 7);
-            yield return LoadTestCaseData("issue83", 0, 1e-14);
+            yield return LoadTestCaseData("issue83", 0);
         }
 
         [TestCaseSource(nameof(TestCases))]
