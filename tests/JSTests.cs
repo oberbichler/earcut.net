@@ -86,7 +86,7 @@ namespace EarcutNet.Tests
         }
 
         [TestCaseSource(nameof(TestCases))]
-        public void AreaTest(List<double> data, List<int> holeIndices, int expectedTriangles, double expectedDeviation)
+        public static void AreaTest(List<double> data, List<int> holeIndices, int expectedTriangles, double expectedDeviation)
         {
             var triangles = Earcut.Tessellate(data, holeIndices);
 
