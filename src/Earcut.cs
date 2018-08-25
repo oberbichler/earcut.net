@@ -794,7 +794,7 @@ namespace EarcutNet
             public Node prevZ;
             public Node nextZ;
 
-            public bool steiner = false;
+            public bool steiner;
 
             public Node(int i, double x, double y)
             {
