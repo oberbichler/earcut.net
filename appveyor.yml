@@ -6,4 +6,4 @@ build:
   project: Earcut.sln
   verbosity: minimal
 test_script:
-- cmd: nunit3-console \tests\bin\Earcut.dll --result=results.xml;format=AppVeyor
+- cmd: nunit3-console C:\projects\earcut-net\tests\bin\Tests.dll --result=results.xml;format=AppVeyor
