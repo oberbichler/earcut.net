@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EarcutNet.Tests
 {
-    public class JSTests
+    public static class JSTests
     {
         static string AssemblyDirectory
         {
