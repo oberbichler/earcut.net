@@ -110,7 +110,7 @@ namespace EarcutNet
             }
 
             var p = start;
-            var again = default(bool);
+            bool again;
 
             do
             {
