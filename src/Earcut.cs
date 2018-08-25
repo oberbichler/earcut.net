@@ -152,8 +152,8 @@ namespace EarcutNet
             }
 
             var stop = ear;
-            var prev = default(Node);
-            var next = default(Node);
+            Node prev;
+            Node next;
 
             // iterate through ears, slicing them one by one
             while (ear.prev != ear.next)
